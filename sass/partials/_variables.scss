@@ -1,0 +1,17 @@
+$colors: (
+   
+    primary: #E92569,
+    secondary: #EFEFEF,
+    grey: #767676,
+    white: #FFFFFF,
+    black: #0A0A0A,
+    );
+
+$fonts: (
+    headings: "Playfair Display",
+    text: "Lato",
+);
+
+@function getColors($color) {
+    @return map-get($colors, $color);
+};

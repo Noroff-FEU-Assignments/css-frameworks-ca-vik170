@@ -2,7 +2,13 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/styles.scss"
+        "../sass/styles.scss",
+        "../sass/partials/_variables.scss",
+        "../sass/partials/_typography.scss",
+        "../sass/partials/_nav.scss",
+        "../sass/partials/_base.scss",
+        "../sass/partials/_footer.scss",
+        "../sass/partials/_button.scss"
     ],
     "names": [],
     "file": "styles.css"

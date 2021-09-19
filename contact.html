@@ -41,7 +41,15 @@
 
       <div class="container">
           <div class="row">
-              <div class="col-md">
+            <div class="col-md order-md-2">
+                <ul class="list-group">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    
+                  </ul>
+              </div>
+              <div class="col-md order-md-1">
                 <form>
                     <div class="mb-3">
                       <label for="name" class="name">Name</label>
@@ -53,16 +61,18 @@
                       <input type="password" class="form-control" id="email">
                     </div>
                    
-                    <label for="basic-url" class="form-label">Website</label>
+                    <label for="website" class="form-label">Website</label>
                     <div class="input-group mb-3">
-                      <div class="i nput-group-prepend">
+                      <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon3">https://</span>
                       </div>
-                      <input type="text" class="form-control" id="basic-url">
-                    </div>
-                        <input type="password" class="form-control" id="website">
-                    </div>
+                      <input type="text" class="form-control" id="website">
+                   
                     
+                      </div>
+                      <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
                       </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -71,7 +81,7 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </form>
               </div>
-              <div class="col-md">contact</div>
+             
               
           </div>
 
